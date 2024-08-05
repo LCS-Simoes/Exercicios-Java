@@ -27,7 +27,7 @@ public class Horario extends Application {
 
         if(hora >= 0 && hora < 12){
             imagemPath = "./images/manha.jpg";
-            lblMensagem.setText("Bom dia, são: " + hora + " horas"); // Define a mensagem de bom dia
+            lblMensagem.setText("Bom dia, são: " + hora + " horas"); 
         } else if (hora >= 12 && hora < 18){
             imagemPath = "./images/tarde.jpg";
             lblMensagem.setText("Boa tarde, são: " + hora + " horas"); 
